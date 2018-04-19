@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5d5d5d"
+    tools:context=".geststarted">
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:src="@drawable/whitelogo"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/rider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:textColor="#fff"
+        android:text="I'm a Rider"
+        android:background="#ff8c00"
+        android:paddingVertical="20dp"
+        android:paddingHorizontal="80dp"/>
+
+    <Button
+        android:id="@+id/cabdriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="I'm a Cab driver"
+        android:textColor="#fff"
+        android:background="#3b5998"
+        android:paddingVertical="20dp"
+        android:paddingHorizontal="60dp"/>
+</RelativeLayout>
